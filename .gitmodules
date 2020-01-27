@@ -7,3 +7,6 @@
 [submodule "src/common"]
 	path = src/common
 	url = git@github.com:jdgwf/savaged-us-common.git
+[submodule "src/react"]
+	path = src/react
+	url = git@github.com:jdgwf/savaged-us-react.git
