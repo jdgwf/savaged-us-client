@@ -1,6 +1,6 @@
-export const CONFIGApiPrefix = "/_api";
-export const CONFIGAdminApiPrefix = "/_api/admin";
-export const CONFIGSharePrefix = "/s";
+export const CONFIGApiPrefix = "https://savaged.us/_api";
+export const CONFIGAdminApiPrefix = "https://savaged.us/_api/admin";
+export const CONFIGSharePrefix = "https://savaged.us/s";
 
 export const CONFIGDataDirName = "data";
 export const CONFIGDataUploadDirectory = CONFIGDataDirName + "/uploads/";
@@ -41,6 +41,7 @@ export const CONFIGDefaultWildcardBestiaryImage = "/images/sw_ace.png";
 
 export const CONFIGRecaptchaFrontEndSiteKey = "6LeGuIUUAAAAAADpanRTzQCWzsB_6-dGef4Mp1wA";
 // Secret key is in .env
+
 export const CONFIGRecaptchaEnabled = true;
 export const CONFIGRecaptchaType = "image";
 
