@@ -4,3 +4,6 @@
 [submodule "src/pdfs"]
 	path = src/pdfs
 	url = git@github.com:jdgwf/savaged-us-pdfs.git
+[submodule "src/common"]
+	path = src/common
+	url = git@github.com:jdgwf/savaged-us-common.git
