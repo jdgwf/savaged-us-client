@@ -67,4 +67,5 @@ export const CONFIGURLWhitelist = [
     "https://gyazo.com/",
     "https://imgur.com/",
     "https://snipboard.io/",
+    "https://github.com/",
 ];
