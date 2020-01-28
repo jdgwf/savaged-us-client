@@ -1,8 +1,19 @@
-# Savaged.US 2.0
-This is the open-source rewrite of the Savaged.us client in React/Node/Typescript
+# Savaged.us Open Source Components
 
-## Server
-The server build process compiles the TypeScript files found in `/src/server` into a single bundled JavaScript file located in the `/bin` directory.
+This is one of the family of open-sourced components for Savaged.us.
+
+## The Savaged.us Open Source Projects
+
+Common: https://github.com/jdgwf/savaged-us-common
+React Front End: https://github.com/jdgwf/savaged-us-react
+PDFS (React): https://github.com/jdgwf/savaged-us-pdfs
+Public facing images and content: https://github.com/jdgwf/savaged-us-public
+Web Client "Working" Project: https://github.com/jdgwf/savaged-us-client (includes submodules to above)
+
+## To the future
+There's a possibility that it'll be moving at least the Common core to .wasm using Rust as the development language. This project is also open source.
+
+https://github.com/jdgwf/savaged-us-rust-libs
 
 ## Client
 The client build process compiles the React app located in `/src/client` into a bundled located at `/public/js/app.js`.
@@ -12,11 +23,4 @@ The client configuration will also build the Sass files found at `/src/scss`. Th
 ## Running the project
 In order to run the server, use `npm run dev`, and the server will start on port 5000 (http://localhost:5000).
 
-Webpack will watch the files. Once you save a file, you can refresh your browser to ensure you got the updated client files. If you only change server files, you *shouldn't* need to refresh.
-
-## .env server environment variables
-This server uses environment variables for connecting to the database and setting which port to listen on. Copy .env-sample to .env and edit to your local server settings. This is the access point for all server constant configuration variables.
-
-## On a Headless Ubuntu Server
-Puppeteer (which uses a headless chrome) requires the following libs: libxss1
-Install via: `sudo apt-get install libxss1`
+Webpack is intended to watch the files (though this isn't quite working on this project). Once you save a file, you can refresh your browser to ensure you got the updated client files.
