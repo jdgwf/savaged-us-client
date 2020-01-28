@@ -1,6 +1,0 @@
-{
-    "watch": ["src/server/", "src/common/"],
-    "ext": "ts",
-    "ignore": ["src/**/*.spec.ts"],
-    "delay": "2000"
-}
