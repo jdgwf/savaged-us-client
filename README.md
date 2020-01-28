@@ -4,11 +4,11 @@ This is one of the family of open-sourced components for Savaged.us.
 
 ## The Savaged.us Open Source Projects
 
-Common: https://github.com/jdgwf/savaged-us-common
-React Front End: https://github.com/jdgwf/savaged-us-react
-PDFS (React): https://github.com/jdgwf/savaged-us-pdfs
-Public facing images and content: https://github.com/jdgwf/savaged-us-public
-Web Client "Working" Project: https://github.com/jdgwf/savaged-us-client (includes submodules to above)
+* Common: https://github.com/jdgwf/savaged-us-common
+* React Front End: https://github.com/jdgwf/savaged-us-react
+* PDFS (React): https://github.com/jdgwf/savaged-us-pdfs
+* Public facing images and content: https://github.com/jdgwf/savaged-us-public
+* Web Client "Working" Project: https://github.com/jdgwf/savaged-us-client (includes submodules to above)
 
 ## To the future
 There's a possibility that it'll be moving at least the Common core to .wasm using Rust as the development language. This project is also open source.
